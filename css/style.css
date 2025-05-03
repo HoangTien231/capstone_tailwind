@@ -1,0 +1,38 @@
+/* header */
+
+.header {
+    background: #EEEAE4;
+}
+
+.header ul li {
+    margin-left: 80px;
+}
+
+.header_navBar button {
+    background-image: linear-gradient(to bottom, #EA4829 0%, #EA4829 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    background-position: top;
+    color: black;
+    transition: 0.4s ease, color 0.4s ease;
+}
+
+.header_navBar button:hover {
+    background-size: 100% 100%;
+    color: white;
+}
+
+.header_navBar button:last-of-type {
+    color: white;
+}
+
+.header_nav ul li i {
+    transition: 0.5s ease;
+  }
+  
+.header_nav ul li i:hover {
+    transform: rotate(-90deg);
+}
+
+/* main content */
+/* intro */
