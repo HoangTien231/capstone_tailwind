@@ -65,7 +65,7 @@
                                 <a href="#">Pages</a>
                                 <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
                             </div>
-                            <ul class="internal_list py-4 px-5 absolute left-0 mt-6 w-48 bg-white shadow-lg rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-50 custom-dropdown">
+                            <ul class="internal_list py-4 px-5 absolute left-0 mt-6 w-48 bg-white shadow-lg rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-50 custom-dropdown  has-submenu">
                                 <div class="dropdown-arrow"></div>
                                 <li class="hover:bg-gray-100 font-semibold pb-2 flex justify-between">
                                     <a href="#">Blogs</a>
@@ -226,7 +226,7 @@
                     <p class="text-xl">Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop.</p>
                 </div>
             </div>
-            <div class="deploy_solutions_section flex flex-col md:flex-row items-center gap-12 pb-20">
+            <div class="deploy_solutions_section mb-20 flex flex-col md:flex-row">
                 <div class="text_content">
                     <h2 class="pb-10">Providing quick deploy solutions</h2>
                     <p class="text-xl pb-7">Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI capabilities without lengthy setup and development times in fast-paced industries.</p>
@@ -253,6 +253,33 @@
                 </div>
                 <div class="img">
                     <img src="https://azzle.netlify.app/assets/img/th-1/content-image-2.jpg" alt="#" width="526" height="450">
+                </div>
+            </div>
+            <div class="ai-streamline_content">
+                <div class="ai-streamline_content_img">
+                    <img src="https://azzle.netlify.app/assets/img/th-1/funfact-image.jpg" alt="#">
+                </div>
+                <div class="ai-streamline_text_content">
+                    <div class="ai-streamline_title pb-10">
+                        <h2>AI-powered that streamline tasks</h2>
+                        <p>As your business grows or your AI SaaS needs change, you can easily adjust your subscription level to match those needs. This flexibility ensures that AI remains an asset.</p>
+                    </div>
+                    <div class="ai_streamline_count_content">
+                        <div class="count_block">
+                            <div class="percent">
+                                <span class="counter">92</span>
+                                <span>%</span>
+                            </div>
+                            <p>Customer service inquiries</p>
+                        </div>
+                        <div class="count_block">
+                            <div class="percent">
+                                <span class="counter">75</span>
+                                <span>%</span>
+                            </div>
+                            <p>Using financial institutions</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,5 +318,16 @@
 });
             });
     </script>
+
+    <!-- count up -->
+    <script src="jquery.countup.js "></script>
+
+    <!-- waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- custom count up -->
+     <script>
+        $('.counter').countUp();
+     </script>
 </body>
 </html>
